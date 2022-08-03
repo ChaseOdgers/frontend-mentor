@@ -1,0 +1,5 @@
+1. Line 92 of css, why cant I get font to look correct.
+2. How can I scale the text with the page?
+3. How can I keep the image from stretching and shrinking, rather 
+    id like to focus the chanel bottle as the view gets narrower
+4. 

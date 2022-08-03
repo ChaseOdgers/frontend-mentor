@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "frontend-mentor",
+			"path": "..\\..\\GitHub\\frontend-mentor"
+		},
+		{
+			"name": "product-preview-card-component-main",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "product-preview-card-component-main",
+		"liveServer.settings.port": 5501
+	}
+}

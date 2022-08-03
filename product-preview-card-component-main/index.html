@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="source.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Montserrat" rel="stlysheet">
+    <link href="https://fonts.google.com/specimen/Fraunces" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+
+  <body>
+    <div class="allcontent">
+      <div id="maincontent">
+
+        <!-- Begin Left Column Content-->
+        <div id="leftcontent">
+          <img id="desktop_image" src="/images/image-product-desktop.jpg" class="image1">
+          <img id="desktop_image" src="/images/image-product-mobile.jpg" class="image2">
+        </div>
+        <!-- End Left Column Content-->
+
+        <!-- Begin Right Column Content-->
+        <div id="rightcontent">
+          <!-- Handles the "Perfume" text -->
+          <div id="perfume">
+            <h3>PERFUME</h3>
+          </div>
+          
+          <!-- Handles the large "Gabrielle Essence..." text -->
+          <div id="title">
+            <span><h1>Gabrielle</h1></span>
+            <span><h1>Essence Eau</h1></span> 
+            <span><h1>De Parfum</h1></span>
+          </div>
+          
+          <!-- Handles the paragraph of description beneath title -->
+          <div id="description">
+            <p>
+              A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+              Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+            
+          <!-- Handles the prices layout -->
+          <div class="prices">
+            <div id="saleprice" class="prices">
+              <h1>$149.99</h1>
+            </div>
+              
+            <div id="originalprice" class="prices">
+              <h3><s>$169.99</s></h3>
+            </div>
+          </div>
+          
+          <!-- Handles the "Add to Cart" button -->
+          <div id="addtocart">
+            <span class="material-symbols-outlined">
+              shopping_cart
+              </span>
+            <h4>Add to Cart</h4>
+          </div>
+        </div>
+        <!-- End of right column wrapper -->
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
